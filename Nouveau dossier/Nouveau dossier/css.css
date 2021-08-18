@@ -1,0 +1,38 @@
+div{
+    height: 200px;
+    width: 350px;
+    border: solid black 2px;
+    margin-bottom: 20px;
+    /*background: repeating-radial-gradient(black, white 10px );*/
+}
+
+.div1{
+    background: radial-gradient(lightblue, pink);
+}
+
+.div2:hover{
+    background: repeating-radial-gradient(white, black 10px);
+}
+
+table, tr, td, th{
+    border: rgb(0, 0, 0) solid 2px;
+    border-collapse: collapse;
+}
+
+table th{
+    background: lightblue;
+}
+
+table{
+    border: purple solid 4px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
