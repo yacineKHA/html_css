@@ -193,6 +193,24 @@
             <input type="radio" id="rad" name="radio1" value="radio3"><label for="radio1">Radio1</label><br>
             <input type="radio" id="rad" name="radio1" checked><label for="radio1">Radio1</label><br>
         </fieldset>
+
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <label for="liste">Vous en avez assez</label>
+            <select name="select" id="select">
+                <optgroup label="Team Pas encore">
+                    <option value="option">J'en veux plus</option>
+                    <option value="option">J'en veux plus</option>
+                </optgroup>
+                <optgroup label="Team Oula">
+                    <option value="option">J'en veux plus</option>
+                    <option value="option">J'en veux plus</option>  
+                </optgroup>    
+            </select><br>
+            <input type="button" value="envoyer">
+            <input type="reset" value="reset">
+        </fieldset>
+
         <fieldset>
             <!--Liste déroulante-->
             <legend>Liste déroulante</legend>
@@ -218,6 +236,7 @@
             <!--type => submit (boutton du formulaire),
                             image(image comme button d'envoi), reset, button(a nous de donner une valeur resultat d'envoi)-->
         </fieldset>
+        
     </form>
    
 </html>
