@@ -1,0 +1,35 @@
+
+body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: aquamarine;
+}
+
+div{
+    display: flex;
+}
+
+p{
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+p:hover{
+    cursor: pointer;
+}
+
+div:first-child p:first-child{
+    flex-basis: 0px;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
