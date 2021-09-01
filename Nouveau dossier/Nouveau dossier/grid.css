@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+h1{
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    background: chocolate;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+nav{
+    background: chartreuse;
+    grid-column: 2;
+    text-align: center;
+}
+
+div{
+    grid-row: 3;
+}
+
+footer{
+    background: cornflowerblue;
+    grid-column: 1/span3;
+    grid-row:4;
+}

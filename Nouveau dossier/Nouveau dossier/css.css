@@ -1,10 +1,11 @@
-div{
+/*div{
     height: 200px;
     width: 350px;
     border: solid black 2px;
     margin-bottom: 20px;
-    /*background: repeating-radial-gradient(black, white 10px );*/
-}
+    /*background: repeating-radial-gradient(black, white 10px );
+}*/
+
 
 .div1{
     background: radial-gradient(lightblue, pink);
@@ -26,6 +27,91 @@ table th{
 table{
     border: purple solid 4px;
     margin-bottom: 10px;
+}
+
+body{
+    background: violet;
+}
+
+p{
+    background-color: lightgrey;
+    border: green solid;
+}
+
+.a{
+    margin: 0px 0px 0px 0px;
+}
+
+.b{
+    margin:20px 5px 20px 5px ;
+    width: 50%;
+   
+}
+
+.c{
+
+    margin:auto ;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.formulaire{
+    height: 250px;
+    width: 400px;
+    background: lightgrey;
+    border: black 2px solid;
+}
+
+.connexion{
+    background: green;
+    text-align: center;
+}
+.diva{
+    background: red;
+    height:fit-content;
+}
+
+.divb{
+    background: blue;
+}
+
+.divc{
+    background: violet;
+}
+
+.text1, .mdp{
+    margin-left: 30px;
+    margin-right: 20px;
+    
+}
+
+.checkbox{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.btn{
+    background: yellow ;
+    text-align: center;
+}
+
+label, input{
+    margin: 10px;
+}
+
+#btn1, #btn2{
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#btn1{
+    margin-right: 5px;
+}
+
+
+#btn1:hover, #btn2:hover{
+    background: lightblue;
 }
 
 
